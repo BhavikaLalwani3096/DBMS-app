@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_margin="10sp"
+    tools:context=".AdminActivity">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Admin access"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/viewBtn"
+        android:layout_width="134dp"
+        android:layout_height="72dp"
+        android:layout_alignBottom="@+id/t1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="-130dp"
+        android:text="View DB" />
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="119dp"
+        android:layout_height="69dp"
+        android:layout_alignBottom="@+id/viewBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="-108dp"
+        android:layout_marginBottom="-187dp"
+        android:text="Search DB" />
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="116dp"
+        android:layout_height="75dp"
+        android:layout_alignBottom="@+id/searchBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="-108dp"
+        android:layout_marginBottom="-183dp"
+        android:text="Update DB" />
+
+</RelativeLayout>

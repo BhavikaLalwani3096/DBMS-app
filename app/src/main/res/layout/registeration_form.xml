@@ -1,0 +1,86 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name" />
+
+    <EditText
+        android:id="@+id/et_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter section" />
+
+    <EditText
+        android:id="@+id/et_prn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter PRN no." />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email" />
+
+    <RadioGroup
+        android:id="@+id/rg_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+        <RadioButton
+            android:id="@+id/rb_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interests" />
+
+    <CheckBox
+        android:id="@+id/cb_travel_blog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travelling and blog" />
+
+    <CheckBox
+        android:id="@+id/cb_designing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Designing" />
+
+    <CheckBox
+        android:id="@+id/cb_coding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coding" />
+
+    <CheckBox
+        android:id="@+id/cb_sports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sports" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</LinearLayout>

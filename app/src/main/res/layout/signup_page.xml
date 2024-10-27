@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp"
+    tools:context=".SignupActivity">
+
+    <TextView
+        android:id="@+id/h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/h1"
+        android:layout_marginBottom="-44dp"
+        android:text="Username"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/t1"
+        android:layout_alignBottom="@+id/h1"
+        android:layout_marginLeft="102dp"
+        android:layout_marginBottom="-57dp"
+        android:hint="Enter username" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/t1"
+        android:layout_marginBottom="-79dp"
+        android:text="Email"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/t2"
+        android:layout_alignBottom="@+id/e1"
+        android:layout_marginLeft="102dp"
+        android:layout_marginBottom="-73dp"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/t2"
+        android:layout_marginBottom="-79dp"
+        android:text="Password"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/e3"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/t3"
+        android:layout_alignBottom="@+id/e2"
+        android:layout_marginLeft="102dp"
+        android:layout_marginBottom="-73dp"
+        android:hint="Enter password" />
+
+    <Button
+        android:id="@+id/SignUpBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/t3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-95dp"
+        android:text="Sign up" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/t1"
+        android:layout_marginBottom="-340dp"
+        android:text="Alredy have an Account?"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/t4"
+        android:layout_alignBottom="@+id/SignUpBtn"
+        android:layout_marginRight="-108dp"
+        android:layout_marginBottom="-104dp"
+        android:text="Login" />
+
+</RelativeLayout>

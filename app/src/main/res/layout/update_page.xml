@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp"
+    android:id="@+id/main">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username: "
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/t1"
+        android:layout_marginRight="-284dp"
+        android:hint="enter username" />
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/t1"
+        android:layout_marginBottom="-82dp"
+        android:text="Delete user" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/deleteBtn"
+        android:layout_marginBottom="-42dp"
+        android:text="Set access to: "
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/access"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/t2"
+        android:layout_alignBottom="@+id/deleteBtn"
+        android:layout_marginRight="-282dp"
+        android:layout_marginBottom="-54dp"
+        android:hint="Set access to Admin or User" />
+
+    <Button
+        android:id="@+id/setBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/t2"
+        android:layout_marginBottom="-82dp"
+        android:text="Set access" />
+
+</RelativeLayout>

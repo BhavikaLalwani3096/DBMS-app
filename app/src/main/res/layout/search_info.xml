@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp"
+    android:id="@+id/main">
+
+    <EditText
+        android:id="@+id/et_name_fetch"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter name" />
+
+    <EditText
+        android:id="@+id/et_class_fetch"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/et_name_fetch"
+        android:layout_marginBottom="-72dp"
+        android:hint="Enter section" />
+
+    <Button
+        android:id="@+id/btn_fetch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/et_class_fetch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-71dp"
+        android:text="Submit"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_display_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_fetch"
+        android:layout_marginBottom="-153dp"
+        android:paddingTop="20dp"
+        android:text="Student Information will be displayed here"
+        android:textSize="18sp" />
+
+</RelativeLayout>
